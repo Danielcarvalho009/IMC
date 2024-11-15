@@ -1,0 +1,25 @@
+#Autor: Daniel Carvalho Gomes
+#Data: 08/11/2024
+#Aplicação do IMC
+
+def calcula_imc(peso, altura):
+      print("Parâmetro peso:", 55)
+      print("Parâmetro altura:", 1.66)
+      imc = peso/altura**2
+      print("IMC:", imc)
+      
+#Início do programa
+print("Inicio do cálculo")
+calcula_imc(55, 1.66)
+print("Término do programa")
+
+def calcula_imc(peso, altura):
+     print ("Parâmetro peso:", 120)
+     print("Parâmetro altura:", 1.80)
+     imc = peso/altura**2
+     print("IMC:", imc)
+     
+#Início do programa
+print("Início do cálculo")
+calcula_imc(120, 1.80)
+print("Término do programa")
